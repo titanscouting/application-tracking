@@ -1,0 +1,52 @@
+{
+  "demographics": [
+    {
+      "id": "first-name",
+      "name": "First Name",
+      "type": "string"
+    },
+    {
+      "id": "last-name",
+      "name": "Last Name",
+      "type": "string"
+    },
+    {
+      "id": "id",
+      "name": "Student ID",
+      "type": "number"
+    },
+    {
+      "id": "hometown",
+      "name": "Hometown",
+      "type": "string"
+    },
+    {
+      "id": "year",
+      "name": "Year",
+      "type": "radio",
+      "options": [
+        "Sophomore",
+        "Junior",
+        "Senior"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Please indicate if you have any immediate family members who work for any of the team sponsors below.",
+      "type": "checkbox",
+      "options": [
+        "Boeing",
+        "Caterpillar",
+        "TE Connectivity",
+        "Vital Proteins",
+        "Gus Berthold Electric",
+        "Share Machine",
+        "Fox Valley Sandblasting & Powder Coating",
+        "Walmart",
+        "Greenberg Traurig"
+      ]
+    }
+  ],
+  "questions": [],
+  "extraQuestions": {}
+}
