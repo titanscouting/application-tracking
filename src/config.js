@@ -1,9 +1,11 @@
-{
+const config =  {
+  "due": "September 14, 2021 @ 11:59 PM Central Time",
   "demographics": [
     {
       "id": "first-name",
       "name": "First Name",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     {
       "id": "last-name",
@@ -13,7 +15,11 @@
     {
       "id": "id",
       "name": "Student ID",
-      "type": "number"
+      "type": "number",
+      "props": {
+        "min": "122000",
+        "max": "124999"
+      }
     },
     {
       "id": "hometown",
@@ -97,3 +103,5 @@
     "Titan Software": []
   }
 }
+
+export default config; // don't remove this line
