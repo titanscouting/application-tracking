@@ -37,7 +37,7 @@ const config =  {
       ]
     },
     {
-      "id": "family",
+      "id": "family-affiliation",
       "name": "Please indicate if you have any immediate family members who work for any of the team sponsors below.",
       "type": "checkbox",
       "options": [
@@ -49,7 +49,8 @@ const config =  {
         "Share Machine",
         "Fox Valley Sandblasting & Powder Coating",
         "Walmart",
-        "Greenberg Traurig"
+        "Greenberg Traurig",
+        "None of the above"
       ]
     }
   ],
@@ -57,7 +58,6 @@ const config =  {
   "questions": [
     {
       "question": "Why do you want to be on the team?",
-      "subtitle": ""
     },
     {
       "question": "Do you have any other commitments during the year?",
@@ -80,8 +80,8 @@ const config =  {
       "subtitle": "Our main form of communication will be Discord, with information shared through a shared Google Drive and at meetings."
     },
     {
-      "question": "Please describe any prior CAD experience you've had, including software used.",
-      "subtitle": ""
+      "question": "Please describe any prior CAD experience you have.",
+      "subtitle": "Having none is fine as well. If you do have experience, include software used or N/A if none."
     }
   ],
   "subteams": [
